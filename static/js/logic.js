@@ -60,6 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Perform an API call to the Citi Bike API to get the station information. Call createMarkers when it completes.
-  var apiUrl = "http://localhost:8000/https://gbfs.citibikenyc.com/gbfs/en/station_information.json";
+  var apiUrl = "https://gbfs.citibikenyc.com/gbfs/en/station_information.json";
   d3.json(apiUrl).then(createMarkers);
 });
